@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+<head>
+	
+<link rel="stylesheet" type="text/css" href="design.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cooking</title>
+<meta charset="utf-8">
+	
+<script>
+  
+ function showfunc() {
+   var x = document.getElementsByTagName("ul")[0];
+     if(x.style.display == "none")
+     {
+       x.style.display = "inline-block";
+     }
+     else
+     {
+      x.style.display = "none";
+     }
+}
+    
+ function fixheader() {
+  if(window.innerWidth > 550)
+  {
+   document.getElementsByTagName("ul")[0].style.display = "block";
+  }
+  else
+  {
+   document.getElementsByTagName("ul")[0].style.display = "none";
+  }
+}
+  
+</script>    
+    
+</head>
+
+<body onResize="fixheader()">
+
+  <header>
+  <img class="menuicon" src="menu.png" onclick="showfunc()">
+  
+  <ul>
+    <li class="active">Home</li>
+    <li>Photos</li>
+    <li>Recipes</li>
+    <li>Info</li>
+  </ul>
+  
+  <div class="logo">
+    <p>Cookieing</p>
+    <img src="80931380-umbrella-and-sun-lounger-sign-vector-white-icon-with-soft-shadow-on-transparent-background-.jpg" alt="icon">
+    </div>
+    
+  </header>
+	
+  <section>
+
+   <h1>About us</h1>
+
+<div class="content-line">
+
+  <div class="text">
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  
+  <div class="image">
+    <img src="letöltés.jpg">
+  </div>
+  
+</div>
+
+<div class="content-line">
+   
+   <div class="text">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   </div>
+   
+   <div class="image">
+     <img src="tmg-article_default_mobile.jpg">
+   </div>
+   
+</div>
+
+ <div class="gallery">
+   <h2>Foods We make</h2>
+   <h4>Our best</h4>
+   <div class="ordering">
+     <img src="1134335296.jpg.0.jpg">
+     <img src="20150728-homemade-whopper-food-lab-35-1500x1125.jpg">
+     <img src="letöltés (1).jpg">
+     <img src="20150915-_Upland_Burger_3.0.0.1489236245.0.jpg">
+     <img src="tmg-article_default_mobile.jpg">
+   </div>
+ </div>
+
+  </section>	
+
+  <footer>
+	<div class="fot-copyright">
+     <p>&copy;Copyright: Reico</p>
+     <p>Alias: Pál Erik XII.A</p>
+     <p>2019-2030</p>
+    </div>
+    <div style="text-align: center;" class="fot-medias">
+    
+      <p style="margin-bottom: 5%">Follow us:</p>
+      <div class="social-youtube"><img src="facebook.png"></div>
+      <div class="social-facebook"><img src="youtube.png"></div>
+      <div class="social-instagram"><img src="insta.png"></div>
+</div>
+    <div style="padding-right: 10px" class="fot-sayings">
+    <p>-No Comercial Use</p>
+     <p>-Website.org</p>
+     <p>-Tasty</p>
+    </div>
+  </footer>
+	
+</body>	
+	
+</html>
+
